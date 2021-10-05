@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="hero">
+        <div class="hero_left">
+            <div class="hero_heading" data-aos="fade-up"
+            data-aos-duration="1500">
+                App landing page
+            </div>
+            <div class="hero_para" data-aos="fade-up"
+            data-aos-duration="1500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nisi porro expedita nostrum.
+            </div>
+            <div class="hero_buttons" data-aos="fade-right"
+            data-aos-duration="1500">
+                <a href="#" ><i class="fab fa-google-play"></i><span>Google Play</span></a>
+
+                <a href="#"><i class="fab fa-apple"></i><span>App Store</span></a>
+            </div>
+        </div>
+        <div class="hero_right" data-aos="fade-left"
+        data-aos-duration="1500">
+            <img src="asset/hero-img.png" alt="">
+        </div>
+    </section>
+
+
+    <div class="navbar" id="navbar">
+        <div class="nav_logo">AppLogo</div>
+        <div class="nav_link">
+            <a href="#hero">Home</a>
+            <a href="#features">App features</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#contact">Contact</a>
+            <a href="#" id="startBtn">Get Started</a>
+
+        </div>
+
+        <div id="bars" onclick="openNav()"><i class="fas fa-bars"></i></div>
+    </div>
+
+    <div id="toggle_nav">
+        <div id="times" onclick="closeNav()"><i class="fas fa-times"></i></div>
+        <div class="toggle_links">
+            <a href="#hero" onclick="closeNav()">Home</a>
+            <a href="#features" onclick="closeNav()">App features</a>
+            <a href="#gallery" onclick="closeNav()">Gallery</a>
+            <a href="#pricing" onclick="closeNav()">Pricing</a>
+            <a href="#newsletter" onclick="closeNav()">Newsletter</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+            <a href="#" onclick="closeNav()" id="startBtn">Get Started</a>
+        </div>
+    </div>
+
+
+
+
+    <section id="features">
+        <div class="features_heading" data-aos="fade-up"
+        data-aos-duration="1500">App Features</div>
+        <div class="features_para" data-aos="fade-up"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptate placeat temporibus magni facilis iure ipsum consectetur nisi optio illum, odio dolorem nobis aliquid.</div>
+        <div class="features_section">
+            <div class="features_left">
+                <div class="left_items">
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="far fa-sticky-note"></i></div>
+                        <div class="feature_here" >
+                            <div class="feature_sum">Corporis voluptates sit</div>
+                            <div class="feature">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</div>
+                        </div>
+                    </div>
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="fas fa-cube"></i></div>
+                        <div class="feature_here">
+                            <div class="feature_sum">Ullamco laboris nisi</div>
+                            <div class="feature">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_items">
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="far fa-images"></i></div>
+                        <div class="feature_here">
+                            <div class="feature_sum">Labore consequatur</div>
+                            <div class="feature">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</div>
+                        </div>
+                    </div>
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="fas fa-shield-alt"></i></div>
+                        <div class="feature_here">
+                            <div class="feature_sum">Beatae veritatis</div>
+                            <div class="feature">Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_items">
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="fab fa-react"></i></div>
+                        <div class="feature_here">
+                            <div class="feature_sum">Molestiae dolor</div>
+                            <div class="feature">Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</div>
+                        </div>
+                    </div>
+                    <div class="left_inner" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="feature_logo"><i class="far fa-address-card"></i></div>
+                        <div class="feature_here">
+                            <div class="feature_sum">Explicabo consectetur</div>
+                            <div class="feature">Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features_right" data-aos="fade-left"
+            data-aos-duration="1500">
+                <img src="asset/features.svg" alt="features">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="detail1" class="reverse">
+        <div class="detail1_photo" data-aos="fade-right"
+        data-aos-duration="1500">
+            <img src="asset/details-1.png" alt="detail1">
+        </div>
+        <div class="detail1">
+            <div class="detail1_heading" data-aos="fade-up"
+            data-aos-duration="1500">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</div>
+            <div class="detail1_para" data-aos="fade-up"
+            data-aos-duration="1500"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></div>
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem"> Duis aute irure dolor in reprehenderit in voluptate velit.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Iure at voluptas aspernatur dignissimos doloribus repudiandae.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</div>
+            </div>
+
+            <div class="detail1_para2" data-aos="fade-right"
+            data-aos-duration="1500">Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</div>
+        </div>
+    </section>
+
+
+
+    <section id="detail2" class="non_reverse">
+       
+        <div class="detail2">
+            <div class="detail2_heading" data-aos="fade-up"
+            data-aos-duration="1500">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</div>
+            <div class="detail2_para" data-aos="fade-up"
+            data-aos-duration="1500"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></div>
+         
+
+            <div class="detail2_para2" data-aos="fade-down"
+            data-aos-duration="1500">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    <br><br><br>
+                Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.
+            </div>
+        </div>
+
+
+    </div>
+
+
+        <div class="detail2_photo" data-aos="fade-left"
+        data-aos-duration="1500">
+            <img src="asset/details-2.png" alt="detail2">
+        </div>
+    </section>
+
+
+    <section id="detail1" class="reverse">
+        <div class="detail3_photo" data-aos="fade-right"
+        data-aos-duration="1500">
+            <img src="asset/details-3.png" alt="detail3">
+        </div>
+        <div class="detail1">
+            <div class="detail1_heading" data-aos="fade-up"
+            data-aos-duration="1500">Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</div>
+            <div class="detail1_para" data-aos="fade-up"
+            data-aos-duration="1500"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></div>
+            <div class="detail1_list" data-aos="fade-right"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-right"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem"> Duis aute irure dolor in reprehenderit in voluptate velit.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-right"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Iure at voluptas aspernatur dignissimos doloribus repudiandae.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-right"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</div>
+            </div>
+
+            <div class="detail1_para2" data-aos="fade-up"
+            data-aos-duration="1500">Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</div>
+
+            <div class="detail1_para2" data-aos="fade-up"
+            data-aos-duration="1500">Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</div>
+        </div>
+    </section>
+
+
+    <section id="detail1" class="non_reverse" >
+       
+        <div class="detail1">
+            <div class="detail1_heading" data-aos="fade-up"
+            data-aos-duration="1500">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</div>
+            <div class="detail1_para" data-aos="fade-up"
+            data-aos-duration="1500"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></div>
+
+            <div class="detail1_para2" data-aos="fade-up"
+            data-aos-duration="1500">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem"> Duis aute irure dolor in reprehenderit in voluptate velit.</div>
+            </div>
+
+            <div class="detail1_list" data-aos="fade-left"
+            data-aos-duration="1500">
+                <div class="detail1_tick"><i class="fas fa-check"></i></div>
+                <div class="detail1_listItem">Iure at voluptas aspernatur dignissimos doloribus repudiandae.</div>
+            </div>
+
+          
+
+        </div>
+
+
+        <div class="detail3_photo" data-aos="fade-right"
+        data-aos-duration="1500">
+            <img src="asset/details-4.png" alt="detail4">
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <div class="gallery_heading" data-aos="zoom-in"
+        data-aos-duration="1500">Gallery</div>
+        <div class="gallery_para" data-aos="zoom-in"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ut? Culpa modi minima fugit voluptas officia voluptatem impedit nobis iure sint, eum delectus veritatis a!</div>
+
+        <div class="gallery_container" data-aos="zoom-out"
+        data-aos-duration="1500">
+
+
+            <div class="main-carousel">
+                <div class="carousel-cell">
+                   <img src="asset/gallery/gallery-1.png" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="asset/gallery/gallery-2.png" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="asset/gallery/gallery-3.png" alt="">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="asset/gallery/gallery-4.png" alt="">
+                        </div> 
+                        
+                        <div class="carousel-cell">
+                            <img src="asset/gallery/gallery-5.png" alt="">
+                            </div>  
+
+                            <div class="carousel-cell">
+                                <img src="asset/gallery/gallery-6.png" alt="">
+                                </div>  
+
+                                <div class="carousel-cell">
+                                    <img src="asset/gallery/gallery-7.png" alt="">
+                                    </div>  
+
+
+                                    <div class="carousel-cell">
+                                        <img src="asset/gallery/gallery-8.png" alt="">
+                                        </div>  
+
+                                        <div class="carousel-cell">
+                                            <img src="asset/gallery/gallery-9.png" alt="">
+                                            </div>
+                                            
+                                            <div class="carousel-cell">
+                                                <img src="asset/gallery/gallery-10.png" alt="">
+                                                </div>  
+
+                                                <div class="carousel-cell">
+                                                    <img src="asset/gallery/gallery-11.png" alt="">
+                                                    </div>  
+
+
+                                                    <div class="carousel-cell">
+                                                        <img src="asset/gallery/gallery-12.png" alt="">
+                                                        </div>  
+
+                </div>
+ 
+            
+              </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="testimonial">
+        <div class="test_heading" data-aos="fade-up"
+        data-aos-duration="1500">Testimonials</div>
+        <div class="test_para" data-aos="zoom-in"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut deserunt labore corrupti rem maxime saepe non molestias dicta vero sunt? Ea, eum. Illo, tempore eum!</div>
+
+        <div class="test_container">
+            <div class="main-carousel2">
+                <div class="carousel-cell2" data-aos="zoom-out"
+                data-aos-duration="1500">
+                    <div class="test_card">
+                        <div class="test_profile">
+                            <img src="asset/testimonials/testimonials-1.jpg" alt="">
+                        </div>
+                        <div class="test_card_head">Matt Brandon</div>
+                        <div class="test_card_qoute">Freelancer</div>
+                        <div class="test_card_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quaerat quod porro ducimus reiciendis suscipit, officia totam excepturi error praesentium rem odio repellat ad perspiciatis, neque numquam?</div>
+                    </div>
+                </div>
+                <div class="carousel-cell2" data-aos="zoom-out"
+                data-aos-duration="1500">
+                    <div class="test_card">
+                        <div class="test_profile">
+                            <img src="asset/testimonials/testimonials-2.jpg" alt="">
+                        </div>
+                        <div class="test_card_head">John Larson</div>
+                        <div class="test_card_qoute">Entrepreneur</div>
+                        <div class="test_card_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quaerat quod porro ducimus reiciendis suscipit, officia totam excepturi error praesentium rem odio repellat ad perspiciatis, neque numquam?</div>
+                    </div>
+                </div>
+                <div class="carousel-cell2" data-aos="zoom-out"
+                data-aos-duration="1500">
+                    <div class="test_card">
+                        <div class="test_profile">
+                            <img src="asset/testimonials/testimonials-3.jpg" alt="">
+                        </div>
+                        <div class="test_card_head">Saul Goodman</div>
+                        <div class="test_card_qoute">CEO & Founder</div>
+                        <div class="test_card_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quaerat quod porro ducimus reiciendis suscipit, officia totam excepturi error praesentium rem odio repellat ad perspiciatis, neque numquam?</div>
+                    </div>
+                    </div>
+
+                    <div class="carousel-cell2" data-aos="zoom-out"
+                    data-aos-duration="1500">
+                        <div class="test_card">
+                            <div class="test_profile">
+                                <img src="asset/testimonials/testimonials-4.jpg" alt="">
+                            </div>
+                            <div class="test_card_head">Sara Wilson</div>
+                            <div class="test_card_qoute">Designer</div>
+                            <div class="test_card_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quaerat quod porro ducimus reiciendis suscipit, officia totam excepturi error praesentium rem odio repellat ad perspiciatis, neque numquam?</div>
+                        </div>
+                        </div> 
+                        
+                        <div class="carousel-cell2" data-aos="zoom-out"
+                        data-aos-duration="1500">
+                            <div class="test_card">
+                                <div class="test_profile">
+                                    <img src="asset/testimonials/testimonials-5.jpg" alt="">
+                                </div>
+                                <div class="test_card_head">Jenna Karlis</div>
+                                <div class="test_card_qoute">Store Owner</div>
+                                <div class="test_card_para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quaerat quod porro ducimus reiciendis suscipit, officia totam excepturi error praesentium rem odio repellat ad perspiciatis, neque numquam?</div>
+                            </div>
+                            </div>  
+                </div>
+ 
+        </div>
+    </section>
+
+
+    <section id="pricing">
+        <div class="price_heading" data-aos="fade-up"
+        data-aos-duration="1500">Pricing</div>
+        <div class="price_para" data-aos="fade-up"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis dolores corrupti ex quibusdam ipsam tempore, voluptatum fugiat magni ipsum? Nisi consectetur praesentium fugit error.</div>
+
+        <div class="price_cards" >
+            <div class="price_card" data-aos="fade-up"
+            data-aos-duration="1500">
+                <div class="price_head">Free</div>
+                <div class="price_price">$0</div>
+                <div class="price_month">per month</div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i> Quam adipiscing vitae proin
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nec feugiat nisl pretium
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nulla at volutpat diam uteera
+                </div>
+                <div class="price_feature under">
+                    <i class="fas fa-times"></i>Pharetra massa massa ultricies
+                </div>
+                <div class="price_feature under">
+                    <i class="fas fa-times"></i>Massa ultricies mi quis hendrerit
+                </div>
+                <div id="priceBtn">Get Start</div>
+            </div>
+
+
+            <div class="price_card" data-aos="fade-down"
+            data-aos-duration="1500">
+                <div class="price_head">Bussiness</div>
+                <div class="price_price">$29</div>
+                <div class="price_month">per month</div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i> Quam adipiscing vitae proin
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nec feugiat nisl pretium
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nulla at volutpat diam uteera
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-times"></i>Pharetra massa massa ultricies
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-times"></i>Massa ultricies mi quis hendrerit
+                </div>
+                <div id="priceBtn">Get Start</div>
+            </div>
+
+
+
+            <div class="price_card" data-aos="fade-up"
+            data-aos-duration="1500">
+                <div class="price_head">Developer</div>
+                <div class="price_price">$49</div>
+                <div class="price_month">per month</div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i> Quam adipiscing vitae proin
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nec feugiat nisl pretium
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-check"></i>Nulla at volutpat diam uteera
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-times"></i>Pharetra massa massa ultricies
+                </div>
+                <div class="price_feature">
+                    <i class="fas fa-times"></i>Massa ultricies mi quis hendrerit
+                </div>
+                <div id="priceBtn">Get Start</div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="contact">
+        <div class="contact_heading" data-aos="fade-up"
+        data-aos-duration="1500">Contact</div>
+        <div class="contact_para" data-aos="fade-up"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quisquam vero consequuntur illo reiciendis itaque iste soluta accusamus dolore dolorem tenetur, officia, necessitatibus expedita libero.</div>
+
+        <div class="contact_container">
+            <div class="contact_left">
+                <div class="contact_top">
+                    <div class="contact_top_left" data-aos="zoom-put"
+                    data-aos-duration="1500">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact_name">ADDRESS</div>
+                        <div class="contact_detail">A108 Adam Street,</div>
+                        <div class="contact_detail">New York, NY 535022</div>
+                    </div>
+                    <div class="contact_top_right" data-aos="zoom-out"
+                    data-aos-duration="1500"><i class="fas fa-phone-alt"></i>
+                    <div class="contact_name">CALL US</div>
+                    <div class="contact_detail">+1 5589 55488 55</div>
+                    <div class="contact_detail">+1 5589 22548 64</div>
+                    </div>
+                </div>
+                <div class="contact_bottom">
+                    <div class="contact_bottom_left"  data-aos="zoom-out"
+                    data-aos-duration="1500"><i class="far fa-envelope"></i>
+                    <div class="contact_name">EMAIL US</div>
+                    <div class="contact_detail">contact@example.com</div>
+                    <div class="contact_detail">info@example.com</div>
+                    </div>
+                    <div class="contact_bottom_right" data-aos="zoom-out"
+                    data-aos-duration="1500"><i class="far fa-clock"></i>
+                    <div class="contact_name">WORKING HOURS</div>
+                    <div class="contact_detail">Mon - Fri: 9AM to 5PM</div>
+                    <div class="contact_detail">Sunday: 9AM to 1PM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_right" data-aos="fade-left"
+            data-aos-duration="1500">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Subject">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter">
+        <div class="news_heading" data-aos="zoom-out"
+        data-aos-duration="1500">Join Our NewsLetter</div>
+        <div class="news_para" data-aos="zoom-out"
+        data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,   corrupti.</div>
+
+        <div class="news" data-aos="zoom-in"
+        data-aos-duration="1500">
+        <input type="text">
+        <button>Subscribe</button>
+        </div>
+
+    </section>
+
+
+    <section id="footer">
+        © Copyright Nikhil Bhatt. All Rights Reserved
+    </section>
+
+
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.backgroundColor = "transparent";
+          } else {
+            document.getElementById("navbar").style.backgroundColor = "white";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+   
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>   
+<script src="script.js"></script>
+</body>
+</html>
